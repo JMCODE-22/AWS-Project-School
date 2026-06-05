@@ -1,16 +1,17 @@
 # AWS-Project-School
 
-Hosting a Flask Application on EC2 with Gunicorn and Nginx
+## Hosting a Flask Application on EC2 with Gunicorn and Nginx
 This guide will walk you through the process of setting up a Flask application on an EC2 instance, using Gunicorn as the WSGI server and Nginx as a reverse proxy.
 
 Certainly! Let's delve into each step with a bit more detail:
 
-Step 1: Install Python Virtualenv
-sudo apt-get update
-sudo apt-get install python3-venv
+### Step 1: Install Python Virtualenv
+```
+    sudo apt-get update
+    sudo apt-get install python3-venv
 This step ensures that your EC2 instance has the necessary tools to create and manage virtual environments for Python.
 
-Step 2: Set up the Virtual Environment
+### Step 2: Set up the Virtual Environment
 mkdir project
 cd project
 python3 -m venv venv
